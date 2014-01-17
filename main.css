@@ -1,0 +1,420 @@
+/*Global-------------------------------------------------------*/
+
+/* custom fonts -------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('fonts/arvo-regular-webfont.eot');
+    src: url('fonts/arvo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arvo-regular-webfont.woff') format('woff'),
+         url('fonts/arvo-regular-webfont.ttf') format('truetype'),
+         url('fonts/arvo-regular-webfont.svg#arvoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('fonts/proximanova-light-webfont.eot');
+    src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-light-webfont.woff') format('woff'),
+         url('fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, input, textarea {
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	margin: -2px 0 0 0;
+	padding: 0;
+	font-size: 100%;
+	color: #1f1f1f;
+	line-height: 1.6em;
+	text-align: left;
+	background: #fff url(images/bg-body.jpg) repeat-x top center;
+}
+ul li {
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+a {
+	text-decoration: none;
+	outline: none; /* removes dotted border from Firefox */
+	color: #C5D6D2;
+}
+a:hover {
+	color: #5F9212;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+/* Header -------------------------------------------------------*/
+
+header {
+	width: 100%;
+	margin-bottom: 45px;
+	margin-top: 0;
+	float: left;
+}
+
+h1 {
+	color: #8CBF3E;
+	font-size: 48px;
+	font-weight: 300;
+	margin: 12px 0 12px 0;
+	line-height: 1em;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+header h1 a {
+	display: block;
+	width: 151px;
+	height: 130px;
+	background: url(images/logo-thewritestuff-01.png) no-repeat;
+	text-indent: -9999px;
+	float: left;
+	border: 0;
+}
+header nav {
+	width: 700px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	height: 110px;
+}
+header nav ul li {
+	display: inline;
+	float: left;
+}
+header nav ul li a {
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 30px;
+	padding: 115px 5px 0 5px;
+	color: #000;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: none;
+}
+header nav ul li a.selected {
+	color: #5F9212;
+	text-decoration: none;
+	border: 0;
+}
+
+/*   under slider section --------------------------------------------------*/
+
+.content-wrap {
+	width: 730px;
+	margin: 0 auto;
+	padding: 0 113px;
+	border: #333;
+	border-right-style: dashed;
+	border-left-style: dashed;
+	border-color: #C5D6D2;
+	border-width: 1px;
+}
+.content-wrap img {
+	padding: 25px 25px 25px 25px;
+	float:left;
+	border-radius:37px;
+}
+.customers {
+	font-family: 'proxima_novalight', Georgia, Times, serif;
+	font-size:21px;
+	color:#4d4d4d;
+	width: 46%;
+	line-height: 24px;
+	text-align:justify;
+	text-justify:inter-word;
+	padding-bottom: 30px;
+	margin-right: 20px;
+	float:left;
+}
+.connect {
+	color:#1f1f1f;
+	font-family: 'proxima_novalight', Arial, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+.vedder {
+	font-family: 'arvoregular', Georgia, Times, serif;
+	padding-top:25px;
+	font-size: 27px;
+}
+.callvedder {
+	font-size: 40px;
+	margin: 0 0 25px;
+}
+.dark a{
+	font-size: 16px;
+	color:#4d4d4d;
+}
+.dark a:hover {
+	color: #5F9212;
+}
+
+/*    writing --------------------------------------------------*/
+
+.writing {
+	font-family: 'proxima_novalight', Arial, sans-serif;
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 33px;
+	color: #FB7D07;
+	padding: 18px 0;
+	border-top: 1px dashed #fb7d07;
+	border-bottom: 1px dashed #fb7d07;
+	margin: 60px 0 50px;
+}
+
+
+/*    quote --------------------------------------------------*/
+
+.greybox {
+	 font-family: 'proxima_novalight',Arial, sans-serif;
+	 font-size: 37px;
+	 color:#fff;
+	 background: #4D4D4D;
+	 text-align: justify;
+	 clear: both;
+}
+.quote {
+	width: 400px;
+	padding: 27px;
+	line-height: 37px;
+	margin-left: 440px;
+	margin-bottom: 0;
+}
+blockquote p.quote:before {
+	content: "\201C";
+}
+blockquote p.quote:after {
+	content: "\201D";
+} 
+blockquote p{
+	-webkit-margin-before: -1em;
+	-webkit-margin-after: -1em;
+}
+blockquote {
+	margin-bottom: 0px;
+}
+
+/*    h2 titles --------------------------------------------------*/
+
+h2 {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 33px;
+	color: #fff;
+	text-align: center;
+	margin-top: 45px;
+}
+
+
+/*    services --------------------------------------------------*/
+
+.services {
+	background:#F2F2F2;
+	padding: 0 70px 87px;
+	position: relative;
+}
+.services .boost {
+	font-size: 24px;
+	padding-bottom: 15px;
+	padding-top: 80px;
+}
+.services p {
+	text-align: center;
+	font-size: 19px;
+	margin-top: 1px;
+	padding-bottom: 25px;
+}
+.services ul {
+	padding: 0 20px 0 10px;
+}
+.services li{
+	display: inline-block;
+	text-align: center;
+	width:33%;
+}
+.services h3 {
+	font-family: 'arvoregular';
+	margin-bottom: 2px;
+}
+.services a {
+	color:#1f1f1f;
+}
+.services a:hover {
+	color:#5F9212;
+}
+.circles{
+	position:absolute;
+	top: -60px;
+	left: 52px;
+	border-radius: 50%;
+	width: 115px;
+	height:115px;
+	background: #FB7D07;
+	color:#fff;
+	  /* Prevent background color leak outs */
+	  -webkit-background-clip: padding-box; 
+	  -moz-background-clip:    padding; 
+	  background-clip:         padding-box;
+}
+/* services /image animations -------------------------------------------------------*/
+.services img { 
+ 	-webkit-transition: all .2s ease-in-out; 
+ 	-moz-transition: all .2s ease-in-out; 
+ 	-o-transition: all .2s ease-in-out; 
+ } 
+.services img:hover {
+	-webkit-transform: scale(1.03); 
+	-moz-transform: scale(1.03);
+	-o-transform: scale(1.03);
+}
+
+
+/*    footer --------------------------------------------------*/
+footer {
+	background: #88C254;
+	color:#ffffff;
+	position: relative;
+	padding:53px 53px 25px 53px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+.phone {
+	font-size: 28px;
+	padding-left: 160px;
+}
+.sendmail {
+	font-size: 23px;
+}
+.sendmail a, .footer-right a {
+	color: #fff;
+}
+.sendmail a:hover, .footer-right a:hover {
+	color: #4d4d4d;
+}
+.clear{
+	clear: both;
+}
+.copy{
+	font-family: 'proxima_novalight',Arial, sans-serif;
+}
+
+.footer-right {
+	text-align:right;
+	font-family: 'proxima_novalight',Arial, sans-serif;
+	line-height: 17px;
+	position:absolute;
+	bottom:30px;
+	right:50px;
+}
+.footer-right li {
+	padding-bottom:6px;
+}
+
+ul.social {
+	margin:0 0 45px;
+	padding:0;
+	float:left;
+}
+
+ul.social li {
+	display:inline;
+}
+
+ul.social li a {
+	display:block;
+	float:left;
+	width:50px;
+	height:50px;
+	margin-right:16px;
+	margin-top:5px;
+	text-indent:-9999px;
+}
+.design {
+	font-family: 'arvoregular';
+}
+.design a{
+	background-color: #FB7D07;
+	border-radius: 50%;
+	padding:2px;
+}
+
+/*sprites social media*/
+
+	ul.social li a.facebook {
+		background:url(images/sprite-social.png) 0 -50px no-repeat;
+	}
+	
+		ul.social li a.facebook:hover {
+			background:url(images/sprite-social.png) 0 0 no-repeat;
+		}
+	
+	ul.social li a.twitter {
+		background:url(images/sprite-social.png) -50px -50px no-repeat;
+	}
+		ul.social li a.twitter:hover {
+			background:url(images/sprite-social.png) -50px 0 no-repeat;
+		}
+
+	ul.social li a.linkedin {
+		background:url(images/sprite-social.png) -100px -50px no-repeat;	
+	}
+
+		ul.social li a.linkedin:hover {
+			background:url(images/sprite-social.png) -100px 0 no-repeat;
+		}
+
+	ul.social li a.googleplus {
+		background:url(images/sprite-social.png) -150px -50px no-repeat;	
+	}
+	
+		ul.social li a.googleplus:hover {
+			background:url(images/sprite-social.png) -150px 0 no-repeat;
+		}
+	
+
+	ul.social li a.pinterest {
+		background:url(images/sprite-social.png) -200px -50px no-repeat;	
+	}
+	
+		ul.social li a.pinterest:hover {
+			background:url(images/sprite-social.png) -200px 0 no-repeat;
+		}
+	
+		
+
+
